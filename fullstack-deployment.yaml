@@ -146,7 +146,7 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
-      nodePort: 30082
+      nodePort: 30083
 
 ---
 # Frontend Service
@@ -161,4 +161,4 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
-      nodePort: 30083
+      nodePort: 30082
